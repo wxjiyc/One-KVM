@@ -34,7 +34,7 @@ impl CsiBridgeKind {
             Some(Self::Rk628)
         } else if lower.contains("hdmirx") || lower.contains("hdmi-rx") {
             Some(Self::RkHdmirx)
-        } else if lower.contains("tc358743") || lower.contains("tc358746") {
+        } else if lower.contains("tc35874") {
             Some(Self::Tc358743)
         } else {
             None
